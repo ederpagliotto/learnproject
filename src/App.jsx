@@ -6,10 +6,12 @@ import About from './About';
 import Services from './Services';
 import Contact from './Contact';
 import NotFound from './NotFound';
+import Header from './Header';
 
 const App = () => {
   return (
     <BrowserRouter>
+      <Header />
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="about" element={<About />} />
