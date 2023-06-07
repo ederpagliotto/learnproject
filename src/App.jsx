@@ -7,6 +7,8 @@ import Services from './Services';
 import Contact from './Contact';
 import NotFound from './NotFound';
 import Header from './Header';
+import Programming from './Programming';
+import English from './English';
 
 const App = () => {
   return (
@@ -17,6 +19,8 @@ const App = () => {
         <Route path="about" element={<About />} />
         <Route path="services" element={<Services />} />
         <Route path="contact" element={<Contact />} />
+        <Route path="programming" element={<Programming />} />
+        <Route path="english" element={<English />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
