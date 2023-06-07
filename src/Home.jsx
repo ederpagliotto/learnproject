@@ -1,5 +1,5 @@
 import React from 'react';
-import Subjects from './assets/pages/Subjects';
+import Subjects from './Subjects';
 
 const Home = () => {
   return (

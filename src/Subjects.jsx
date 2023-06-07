@@ -1,6 +1,6 @@
 import React from 'react';
-import codeIMG from './assets/images/codeIMG.jpg';
-import englishIMG from './assets/images/englishIMG.jpg';
+import codeIMG from './assets/codeIMG.jpg';
+import englishIMG from './assets/englishIMG.jpg';
 import { NavLink } from 'react-router-dom';
 
 const Subjects = () => {
